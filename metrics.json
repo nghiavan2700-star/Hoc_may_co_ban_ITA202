@@ -1,0 +1,32 @@
+{
+  "dataset": "Iris - sklearn.datasets.load_iris",
+  "original_rows": 150,
+  "features": 4,
+  "original_missing_values": 0,
+  "original_duplicate_rows": 1,
+  "train_rows": 120,
+  "test_rows": 30,
+  "train_rows_with_iqr_outliers": 3,
+  "test_rows_with_iqr_outliers": 0,
+  "missing_after_preprocessing": 0,
+  "baseline_test_accuracy": 0.933333,
+  "confusion_matrix": [
+    [
+      10,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      1
+    ],
+    [
+      0,
+      1,
+      9
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n      setosa       1.00      1.00      1.00        10\n  versicolor       0.90      0.90      0.90        10\n   virginica       0.90      0.90      0.90        10\n\n    accuracy                           0.93        30\n   macro avg       0.93      0.93      0.93        30\nweighted avg       0.93      0.93      0.93        30\n",
+  "random_state": 42
+}
